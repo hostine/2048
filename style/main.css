@@ -1,4 +1,5 @@
 @import url(fonts/clear-sans.css);
+
 html, body {
   margin: 0;
   padding: 0;
@@ -324,34 +325,36 @@ hr {
 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
 }
-.tile.tile-128 .tile-inner {
-    background-image: url('../images/Clara.jfif');
+.tile.tile-8 .tile-inner {
+    background-image: url('../images/Sarah.jpg');
 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
 }
+.tile.tile-16 .tile-inner {
+    background-image: url('../images/Jack.jpg');
 
-
-
-
-.tile.tile-4 .tile-inner {
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+}
+.tile.tile-32 .tile-inner {
     background-image: url('../images/Martha.jpg');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-8 .tile-inner {
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+}
+  .tile.tile-64 .tile-inner {
       background-image: url('../images/Donna.jpg');
       background-position: center center;
       background-repeat: no-repeat;
    }
-  .tile.tile-16 .tile-inner {
+  .tile.tile-128 .tile-inner {
       background-image: url('../images/Amy.jpg');
   }
-  .tile.tile-32 .tile-inner {
+  .tile.tile-256 .tile-inner {
       background-image: url('../images/Rory.jpg');
   }
-  .tile.tile-64 .tile-inner {
+  .tile.tile-512 .tile-inner {
       background-image: url('../images/Riversong.jpg');
 
   }
-  .tile.tile-128 .tile-inner {
+  .tile.tile-1024 .tile-inner {
       background-image: url('../images/Clara.jfif');
 
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -359,35 +362,23 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-256 .tile-inner {
+  .tile.tile-2048 .tile-inner {
       background-image: url('../images/Doctor.jpg');
 
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    \ }
+  }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+  
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
