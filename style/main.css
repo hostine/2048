@@ -17,7 +17,7 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -374,7 +374,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
-  
+
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
